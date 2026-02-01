@@ -1,0 +1,33 @@
+// Increment and Decrement
+// Relational and Logical Operators
+
+public class RelLogOps {
+    public static void main(String[] args) {
+        int x, y;
+
+        x = 10;
+        y = ++x;
+        System.out.println("x and y with prefix incremental operator: " + x + " " + y);
+
+        x = 10;
+        y = x++;
+        System.out.println("x and y with postfix incremental operator: " + x + " " + y);
+
+        int i, j;
+        boolean b1, b2;
+        i = 10;
+        j = 11;
+        if(i < j) System.out.println("i < j");
+        if(i <= j) System.out.println("i <= j");
+        if(i != j) System.out.println("i != j");
+        if(i == j) System.out.println("this won't execute");
+        if(i >= j) System.out.println("this won't execute");
+        if(i > j) System.out.println("this won't execute");
+        b1 = true;
+        b2 = false;
+        if(b1 & b2) System.out.println("this won't execute");
+        if(!(b1 & b2)) System.out.println("!(b1 & b2) is true");
+        if(b1 | b2) System.out.println("b1 | b2 is true");
+        if(b1 ^ b2) System.out.println("b1 ^ b2 is true");
+    }
+}
